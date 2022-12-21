@@ -1,0 +1,35 @@
+{
+  "name": "geeksdent-backend-express",
+  "version": "1.0.0",
+  "description": "Backend para app GeeksDent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naxete7/geeksDent-backend-express.git"
+  },
+  "author": "Ignacio García Valero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naxete7/geeksDent-backend-express/issues"
+  },
+  "homepage": "https://github.com/Naxete7/geeksDent-backend-express#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.5.2",
+    "winston": "^3.8.2"
+  }
+}
