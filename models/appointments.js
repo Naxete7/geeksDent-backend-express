@@ -11,6 +11,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      appointments.belongsTo(models.patient);
+       appointments.belongsTo(models.doctor);
     }
   }
   appointments.init({
